@@ -1,0 +1,15 @@
+.container{
+  text-align: center;       /* Centers text and inline elements */
+  padding: 20px;  
+  background-color: black;          /* Adds padding around the content */
+}
+
+
+img{
+  display: block;           /* Makes centering possible */
+  margin: 0 auto;           /* Centers the image horizontally */
+  border-radius: 50%;       /* Makes the image round */
+  width: 150px;             /* Set a width (adjust as needed) */
+  height: 150px;            /* Set a height (should be equal to width) */
+  object-fit: cover;        /* Ensures the image covers the area */
+}
